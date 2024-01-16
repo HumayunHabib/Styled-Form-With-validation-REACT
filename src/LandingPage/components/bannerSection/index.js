@@ -1,16 +1,26 @@
 import React from "react";
 
-import { image1, image2, image3, bannerImage, heading } from "../../../assets";
+import { image1, image2, image3, bannerImage, line } from "../../../assets";
 
 const BannerSection = () => {
   return (
     <section className="banner">
       <div className="banner-left">
-        <img
+        <div class="mainHeading">
+          <h1>
+            Lorem ipsum
+            <span class="dolor">
+              dolor <img src={line} alt="LineImage" />
+            </span>
+            sit amet yo
+            <span>👋</span>
+          </h1>
+        </div>
+        {/* <img
           style={{ marginBottom: "64px" }}
           src={heading}
           alt="Andrew Schultz"
-        />
+        /> */}
 
         <div className="profile-card">
           <img src={image1} alt="Andrew Schultz" />
