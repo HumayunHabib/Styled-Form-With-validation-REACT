@@ -1,0 +1,17 @@
+export { default as logo } from "./logo.svg";
+export { default as bannerImage } from "./bannerImage.svg";
+export { default as chevronLeft } from "./chevron-left.svg";
+export { default as chevronRight } from "./chevron-right.svg";
+export { default as cola } from "./cola.svg";
+export { default as formImage } from "./formImage.svg";
+export { default as heading } from "./heading.svg";
+export { default as image1 } from "./image1.svg";
+export { default as image2 } from "./image2.svg";
+export { default as image3 } from "./image3.svg";
+export { default as line1 } from "./line1.svg";
+export { default as line } from "./line.svg";
+export { default as lock } from "./lock.svg";
+export { default as Microsoftlogo } from "./Microsoftlogo.svg";
+export { default as signal } from "./signal.svg";
+export { default as trophy } from "./trophy.svg";
+export { default as twitter } from "./twitter.svg";
